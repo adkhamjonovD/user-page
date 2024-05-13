@@ -1,0 +1,70 @@
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.section .section_bg {
+  height: 100vh;
+  background-image: url("./assets/BgImg.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.section .section__box {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.section .logo {
+  padding-top: 50px;
+}
+.section .section__desc h1 {
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.section .section__card {
+  display: flex;
+  gap: 200px;
+}
+.section .section__card .card__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.section .section__card .card__item h4 {
+  font-size: 24px;
+  font-weight: 800;
+}
+.section .section__card .card__item span {
+  font-size: 16px;
+}
+
+.section .section__regis button {
+  font-size: 20px;
+  font-weight: 900;
+  text-transform: uppercase;
+  border-radius: 60px;
+  border: 2px solid #ffffff;
+  padding: 24px 34px;
+  background: linear-gradient(90deg, #2a2362 0%, #73559d 100%);
+}
+.section .section__num {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.section .section__num h2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 110px;
+}
+.section .section__num p {
+  max-width: 400px;
+  font-family: Montserrat;
+  font-weight: 700;
+  font-size: 18px;
+}
