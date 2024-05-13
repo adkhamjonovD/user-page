@@ -3,16 +3,16 @@ import "./App.css";
 import Logo from "./assets/Logo.svg";
 import Calendar from "./assets/Calendar.svg";
 import Clock from "./assets/Clock.svg";
-
+import User from "./assets/user.svg";
 function App() {
   return (
     <>
       <div>
-        <div className="main__section">
-          <div className="section">
-            <div className="section_bg">
-              <div className="container">
-                <div className="section__box">
+        <div className="section">
+          <div className="section_bg">
+            <div className="container">
+              <div className="section__box">
+                <div className="section__row">
                   <div className="logo">
                     <img src={Logo} alt="" />
                   </div>
@@ -35,6 +35,9 @@ function App() {
                       </h4>
                     </div>
                   </div>
+                  <div className="section__on">
+                    <img src={User} alt="" />
+                  </div>
                   <div className="section__regis">
                     <button>hoziroq Ro‘yxatdan o‘ting</button>
                   </div>
@@ -45,6 +48,11 @@ function App() {
                       tayyorlaynish kerakligini bilib olasiz*
                     </p>
                   </div>
+                </div>
+
+                <div className="section__user">
+                  <div className="user__bg"></div>
+                  <div className="user__box"></div>
                 </div>
               </div>
             </div>
